@@ -3,7 +3,7 @@ var main = function() {
         $('.article').removeClass('current');
         $('.description').hide();
         $(this).addClass("current");
-        $(this).children('.description').show(); 
+        $(this).children('.description').toggle(); 
     });
     
     $(document).keypress(function(event) {
